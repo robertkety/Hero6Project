@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <!-- Custom style sheet by Robert Kety for this website -->
+        <link id="cssLink" rel="stylesheet" type="text/css" href="css/project.css">        
+        <!-- This website uses jQuery! -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <title>The Secret of Monkey Island™</title>
+    </head>
+    <body>
+        <div id="nav">
+            <table class="normal">
+                <tr>
+                    <td colspan=2>
+                        <div id="heading">Hero6 Progress</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="singleWidth">
+                        <span id="subheading">by Robert Kety</span>
+                    </td>     
+                    <td class="textright" id="login">
+                        <span>Return to Login</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="mainContent">
+            <object
+                style="position:fixed; top:30%; left:30%; /*margin-top:7em; margin-left:5em;*/"
+                type="application/x-java-applet"
+                width="33%" height="43%"
+            >
+                <param name="code" value="jdos.gui.MainApplet" />
+                <param name="archive" value="jdosbox.jar,monkey_demo.zip" />
+                <param name="param1" value="-conf jar://dosbox.conf" />
+                <param name="param2" value="imgmount e jar://monkey_demo.IMA -t floppy" />
+                <param name="param3" value="e:" />
+                <param name="param4" value="midemo" />
+                
+                <p>
+                    This game requires Java to function.
+                    Please either enable it in your browser,
+                    switch to a Java capable browser,
+                    or download the appropriate version off of
+                    <a href="http://www.java.com">Oracle's Java Website</a>
+                </p>
+            </object>
+            <div class="instructions">
+                <p>Because this program is unsigned, it may require you to lower your Java security settings.</p>
+                <p>Click on the window to ensure it captures your input.  Press the escape key to skip the intro.</p>
+                <p>This is a freeware demo of The Secret of Monkey Island™</p>
+                <p>Powered by <a href="http://jdosbox.sourceforge.net/cms/">jDosBox</a></p>
+            </div>
+        </div>
+        <script>
+            $(function(){
+                $("#login").on('click', function(){
+                    window.location.href = 'login.php';
+                });
+            });
+        </script>
+    </body>
+</html>

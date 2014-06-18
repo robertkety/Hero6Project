@@ -1,0 +1,272 @@
+html, label.error{   /* Background and font coloring */
+    color:ghostwhite;
+    background-color:darkslategrey;
+    font-family:sans-serif;
+} 
+
+#heading {
+   font-size:150%;
+   font-weight:none;
+   color:darkblue;
+}
+
+#subheading {
+   font-size:117%;
+   font-weight:none;
+   color:darkblue;
+}
+
+#subheading:hover {
+   cursor:pointer;
+   text-shadow: 0px 0px 10px ghostwhite;
+}
+
+h2 {
+    color:rgb(193, 163, 204);
+}
+
+#nav{
+    width:100%;
+    top:0;
+    left:0;
+    right:0;
+    position:fixed;
+    background-color:gray;
+    box-shadow:0px -2px 5px black inset;
+}
+
+#nav table{
+    width:100%;
+    padding-bottom:10px;
+}
+#nav td{
+    vertical-align:bottom;
+    padding-right:5px;
+    font-weight:bold;
+}
+
+#nav .singleWidth{
+    width:14.3%
+}
+
+#nav .doubleWidth{
+    width:28.5%;
+}
+
+td span:hover{
+    color:darkred;
+    border-bottom-color:ghostwhite;
+    cursor:pointer;
+}
+
+.active{ 
+    vertical-align: middle;
+    border-right: 5px solid transparent;
+    border-bottom: 2px solid;
+    border-left: 5px solid transparent;
+}
+
+#content{
+    margin-top:6em;
+    margin-left:2em;
+    //margin-right:2em;
+}
+
+.left{
+    display:inline-block;
+    vertical-align:top;
+}
+
+.right{
+    //padding-left:20px;
+    margin-left:20px;
+    display:inline-block;
+    vertical-align:top;
+}
+
+.fixed{
+    position:fixed;
+}
+
+.slim{
+    width:40%;    
+}
+
+.half{
+    width:45%;
+}
+
+.fat{
+    width:55%;
+}
+
+.normal{
+    width:99%;
+}
+
+.center{
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}
+
+
+.hidden{
+    display:none;
+}
+
+div#top{
+    height:80%;
+}
+
+div#bottom{
+    height:80%;
+}
+
+tr#topRow{
+    background-color:gray;
+    color:darkblue;
+    font-weight:bold;
+    padding: 4px 4px 4px 4px;
+}
+
+.addLowerMargin{
+    margin-bottom:10px;
+}
+
+#dispRows, #dispRows tbody, #dispRows tbody tr, #dispRows tbody tr td{  /* Border and margin styles */ 
+    border-collapse:collapse;
+    border:1px solid white;
+}
+
+#dispRows td, #dispRows th{     /* Table cell padding */
+    padding: 0px 4px 0px 4px;
+    text-align:center;
+}
+div#preview img{
+    border:1px solid white;
+}
+
+div#preview img#viewRoom{    
+    width:80%;
+}
+
+div#preview .hideArrow{
+    border:none;
+    height:1em;
+    margin-right:5px;
+}
+
+img.flipped{    /* From: http://css-tricks.com/snippets/css/flip-an-image/ */
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.rotate{  
+    /* Browser compatibility information on CSS transform
+       was not consistent so I included all browser support
+       prefixes */
+    transform:rotate(90deg);
+    transform-origin:center center;
+    -moz-transform:rotate(90deg); 
+    -moz-transform-origin:center center;
+    -ms-transform:rotate(90deg);
+    -ms-transform-origin:center center;
+    -o-transform:rotate(90deg);
+    -o-transform-origin:center center;
+    -webkit-transform:rotate(90deg); 
+    -webkit-transform-origin:center center;
+}
+
+/* Hide default text for file input */
+input[type=file]{
+    width:90px;
+    color:transparent;
+}
+
+/* Thanks for the tip! : http://bavotasan.com/2011/a-simple-fade-with-css3/ */
+.fade{
+   opacity: 1;
+   
+   transition: opacity 1s ease-in-out;
+   -moz-transition: opacity 1s ease-in-out;
+   -webkit-transition: opacity 1s ease-in-out;
+}
+
+/* Thanks for the tip! : http://bavotasan.com/2011/a-simple-fade-with-css3/ */
+.quickfade{
+   opacity: 1;
+   
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.opaque{
+    opacity: 0;
+}
+
+.darkblue{
+    color:darkblue;
+}
+
+span.loopTitle{
+    color:darkblue;
+    font-weight:bold;
+}
+
+.textcenter{
+    text-align:center;
+}
+
+.textright{
+    text-align:right;
+}
+
+.textleft{
+    text-align:left;
+}
+
+#progress{
+    width:200px;
+}
+
+.buttonHeight{
+    height:27px;
+}
+
+.buttonWidth{
+    width:100px;
+}
+
+.columnWidth{
+    width:250px;
+}
+
+/* Thanks to: http://stackoverflow.com/questions/356809/best-way-to-center-a-div-on-a-page-vertically-and-horizontally */
+.centerOnPage{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    width:50%;
+    height:50%;
+    margin: auto;
+}
+
+.instructions{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    height: 50%;
+    width: 20%;
+    margin-left: 2em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
