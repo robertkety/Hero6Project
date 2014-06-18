@@ -1,9 +1,10 @@
-//Compiled/
-//_Debug/
-//backup_acsprset.spr
-
+# Windows compatibility:
 desktop.ini
 
-//README.MD
-//*.bak
-//_OpenInEditor.lock
+# Hero6 Source Code compatibility:
+# Compiled/
+# _Debug/
+# backup_acsprset.spr
+# README.MD
+# *.bak
+# _OpenInEditor.lock
