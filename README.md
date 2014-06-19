@@ -7,6 +7,8 @@ The original concept and design for this project was a learning exercise.  Howev
 
 This web interface provides review and modifications of a mySQL database which can be built via the Hero6.sql file.  The design is intended to be hosted on a web server using mySQL and PHP.  It makes use of HTML, CSS, Javascript, jQuery, mySQL, PHP, mySQLi, and the jQuery library, ColorPicker.  It also contains an instance of jDOSbox loading a freeware demo of The Secret of Monkey Island™, a PC adventure game.  
 
+The CSS for this interface is rudimentary and unrefined as this exercise focused on functionality instead of design.  I recommend incorporating this interface into the existing CSS of the Hero6.org site, especially those required for supporting libraries (i.e., ColorPicker).
+
 The login interface is purely academic and not intended to restrict modification access at this time.  It is more likely, that these capabilities will be merged with an existing login interface on the Hero6.org web server (i.e., phpBB or WordPress).  
 
 The images directory contains a snapshot gallery of the Hero6 sprite and background images as of June, 2014.  
